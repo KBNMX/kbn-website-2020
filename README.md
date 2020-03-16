@@ -1,3 +1,9 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6b28773a-81a7-489e-b11b-1c8d115c5d81/deploy-status)](https://app.netlify.com/sites/kbn-website-2020/deploys)
+
+# Website kebabnation.mx
+Template version 3.3.0
+
+
 # Installation
 
 After downloading the file from Themeforest, You will find SuperProps.zip file. Then unzip the SuperProps.zip and run the following commands on SuperProps folder to get started with the project.
@@ -11,31 +17,6 @@ yarn
 yarn gatsby-dev
 ```
 
-GatsbyJs server will start in `localhost:8000`
-
-```
-// For starting NextJs Server run
-yarn next-dev
-```
-
-NextJs Server will start in `localhost:3000`
-
-Available routes are below
-
-```
-/app
-/saas
-/saasmodern
-/saasclassic
-/hosting
-/portfolio
-/ride
-/crypto
-/charity
-/interior
-/appmodern
-/appclassic
-```
 
 # Folder Structure
 
@@ -63,8 +44,6 @@ Available routes are below
 
 # Development
 
-Follow the below procedure to go with the development process.
-
 ## GatsbyJs
 
 If you want to develop only for gatsbyjs then then you don't need the `/landing` folder which contains only nextjs related code. You can delete `/landing` folder.
@@ -85,25 +64,6 @@ Now for cleaning the unused code in your project follow the below procedure.
 
 Now if you start your `gatsbyjs` server with `yarn gatsby-dev` then you will get your server running on `localhost:8000`
 
-## NextJs
-
-If you want to develop only for `nextjs` then then you don't need the `/landing-gatsby` folder. You can delete the folder.
-
-For any specific template like the template under `/app` route. If you want to use this template only, then you have to follow below procedure.
-
-1. Go to `/landing/pages/`
-2. now copy all the content from `app.js`
-3. Paste all the content in `/landing/pages/index.js`
-
-Now for cleaning the unused code in your project follow the below procedure.
-
-1. Now you can delete all other pages except `_app.js`, `_documents.js` and `_error.js`. That mean in your `/pages` folder you will have four files `index.js`, `_app.js`, `_documents.js` and `error.js`
-2. From `/landing/containers/` folder you can delete all other folder except `App` and `Error`
-3. From `/common/src/assets/image/` folder you can delete all other folder except `app`. Do not delete any files from there like `404.svg`, `error.svg` etc.
-4. From `/common/src/data/` folder you can delete all other folder except `App`.
-5. From `/common/src/theme/` folder you can delete all other folder except `app`. Do not delete the `index.js` file.
-
-To start the server for `nextjs` you have to run `yarn nextjs-dev` and the server will start on `locahost:3000`.
 
 # Explaining Containers
 
@@ -122,118 +82,4 @@ Run the below command on
 ```
 yarn gatsby-build
 
-// To check the build version locally run below command
-// Not necessary if you don't want to check on your local.
 
-yarn gatsby-serve
-```
-
-If you run `yarn gatsby-serve` then the build version the the project will start in `localhost:9000` . Navigate to the url you will get your site up and running.
-
-### NextJs
-
-To build the nextjs version run below commands.
-
-```
-yarn next-build
-
-// To check the build version locally run below command
-// Not necessary if you don't want to check on your local.
-
-yarn next-start
-```
-
-If you want to host the static html version of your nextjs project then run the below command to build static version
-
-```
-yarn next-export
-```
-
-# Deployment Support
-
-## now.sh
-
-### GatsbyJs
-
-We have given now.sh deployment by default. For hosting the project in now.sh first you have to rename `gatsby-landing.now.json` to `now.json`.
-
-You can change the name according to your project in now.json file like:
-
-```
-{
-	"name": "your_project_name"
-}
-```
-
-Now run below command after building the project.
-
-```
-now
-```
-
-### NextJs
-
-For deploying nextjs on now.sh you have rename `landing.now.json` to `now.json`. Now run below command after building the project.
-
-```
-now
-```
-
-You can change the name according to your project in now.json file like:
-
-```
-{
-	"name": "your_project_name"
-}
-```
-
-> **Make sure you have `now-cli` installed in your system.**
-
-## Firebase
-
-### NextJs
-
-Rename `landing.firebase.json` to `firebase.json`. Then build your project with `nexjs` build command we have discussed above.
-
-Before running the below deploy command, you have to delete the `/public/index.html` file. and
-go to `/landing/package.json`, find engines and do the following
-
-```
-"engines": {
-    "node": "8"
-}
-```
-
-Then, To deploy to your site, run the following command from the root directory.
-
-```
-yarn firebase-deploy
-```
-
-> **Make sure you have `firebase-tools` installed on your machine.**
-
-## Netlify
-
-At first, open an account on netlify and go to `sites` tab.
-
-### NextJs
-
-Run the below command to make the project netlify deploy ready.
-
-```
-yarn netlify-deploy
-```
-
-After running the above command go to `/landing` folder. You will find a `out` folder there. Drag
-and drop this `out` folder on netlify `sites` tab. Now after finishing the upload you are ready to go.
-
-### GatsbyJs
-
-If you want to host the `gatsbyjs` project, go to your command line and run this command on root directory.
-
-```
-yarn gatsby-build
-```
-
-After running above command go to `landing-gatsby` folder. You will find a `public` folder
-there. Drag and drop this `public` folder on netlify `sites` tab.
