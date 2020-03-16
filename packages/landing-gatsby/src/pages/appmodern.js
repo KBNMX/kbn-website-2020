@@ -9,7 +9,7 @@ import Banner from '../containers/AppModern/Banner';
 import AppSlider from '../containers/AppModern/AppSlider';
 import Features from '../containers/AppModern/Features';
 import DashboardFeatures from '../containers/AppModern/Dashboard';
-import ProductSlide from '../containers/AppModern/ProductSlide';
+// import ProductSlide from '../containers/AppModern/ProductSlide';
 import DesignedAndBuilt from '../containers/AppModern/DesignedAndBuilt';
 import PricingPolicy from '../containers/AppModern/PricingPolicy';
 import TeamPortfolio from '../containers/AppModern/TeamPortfoilo';
@@ -43,7 +43,7 @@ export default function() {
             <AppSlider />
             <DashboardFeatures />
             <Testimonial />
-            <ProductSlide />
+            {/* <ProductSlide /> */}
             <DesignedAndBuilt />
             <PricingPolicy />
             <TeamPortfolio />
