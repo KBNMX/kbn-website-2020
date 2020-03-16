@@ -1,0 +1,26 @@
+const colors = {
+  transparent: 'transparent',
+  lightGray: '#F0F0F0',
+  primary: '#FDC30D',
+  primaryHover: '#FDD50D',
+  primary2: 'rgba(252, 242, 43, 0.25)',
+  secondary: '#EA1F25',
+  secondary2: '#DB1525',
+  secondaryHover: '#F8191C',
+  yellow: '#FF9B17',
+  yellowHover: '#F57E22',
+  border: '#dadada',
+  black: '#000000',
+  white: '#ffffff',
+  heading: '#060F1E',
+  text: '#294859',
+  secondaryText: '#616970',
+  lightText: 'rgba(41, 72, 89, 0.5)',
+  linkedin: '#0077B5',
+  facebook: '#3b5998',
+  twitter: '#38A1F3',
+  github: '#211f1f',
+  select: '#525F7F',
+};
+
+export default colors;
