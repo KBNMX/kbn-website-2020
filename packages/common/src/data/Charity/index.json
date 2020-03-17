@@ -138,10 +138,10 @@
     },
     {
       "id": 5,
-      "menuItem": "El Dürum",
+      "menuItem": "El Dürüm",
       "image": "../../assets/image/charity/branch/durum-ny.jpg",
-      "slogan": "PAN DÜRUM",
-      "title": "El <strong>magnánimo</strong> Dürum, el más indulgente. Parecido al pan pita pero <strong>de 33 cm.</strong>",
+      "slogan": "PAN DÜRÜM",
+      "title": "El <strong>magnánimo</strong> Dürüm, el más indulgente. Parecido al pan pita pero <strong>de 33 cm.</strong>",
       "description": "Todos los ingredientes le dan un sabor suave, envueltos por el pan formando un cono.",
       "linkUrl": "https://nationkv2.cloudwaitress.com/",
       "linkText": "PÍDELO A DOMICILIO"
@@ -485,7 +485,7 @@
       {
         "id": 8,
         "title": "¡Delicioso! Bien servido",
-        "description": "Las salsas mmmm! La mayonesa vegana mmmmm! El Ayran y los Dürum fantásticos! Lo súper recomiendo. Aparte el servicio excelente, el host Hugo atento a más no poder y con el conocimiento perfecto de todo lo que sirven. Excelente servicio ⭐️⭐️⭐️⭐️🌟",
+        "description": "Las salsas mmmm! La mayonesa vegana mmmmm! El Ayran y los Dürüm fantásticos! Lo súper recomiendo. Aparte el servicio excelente, el host Hugo atento a más no poder y con el conocimiento perfecto de todo lo que sirven. Excelente servicio ⭐️⭐️⭐️⭐️🌟",
         "avatar": "https://scontent.fmex7-1.fna.fbcdn.net/v/t1.0-1/p100x100/85139599_2427392377367354_8776934976986808320_n.jpg?_nc_cat=108&_nc_ohc=_G-0Oiqbb7AAX-_aAWZ&_nc_ht=scontent.fmex7-1.fna&_nc_tp=6&oh=43464a9ba05a28536ed27a93f52659b1&oe=5EFC614F",
         "name": "Nelly Carrillo",
         "designation": "Facebook",
@@ -498,7 +498,7 @@
     {
       "id": 1,
       "title": "2014",
-      "excerpt": "Iniciamos con la planeación y realizamos pruebas internas del menú que serían la base para los productos y platilos que ahora se ofrecen en KëbabNation.",
+      "excerpt": "Iniciamos con la planeación y realizamos pruebas internas del menú que serían la base para los productos y platillos que ahora se ofrecen en KëbabNation.",
       "link_text": "Read",
       "link_url": "#"
     },
@@ -512,7 +512,7 @@
     {
       "id": 3,
       "title": "2016",
-      "excerpt": "Aperturamos la primera sucursal en San Miguel Chapultepec, manteniendo un producto de alta calidad y fomentando en los clientes el interes por la comida árabe y el concepto.",
+      "excerpt": "Aperturamos la primera sucursal en San Miguel Chapultepec, manteniendo un producto de alta calidad y fomentando en los clientes el interés por la comida árabe y el concepto.",
       "link_text": "Read",
       "link_url": "#"
     },
@@ -544,7 +544,7 @@
       "description": "Si buscas una textura crujiente por fuera y suave por dentro este debe ser tu elección. También es un pan vegano y se hace de masa madre, se deja reposar día y medio para que tome una textura esponjosa y al calentarlo su corteza sea crujiente, tiene forma triangular, se rellena y presenta  abierto estilo almeja."
     },
     {
-      "title": "Dürum",
+      "title": "Dürüm",
       "description": "El magnánimo, nombrado así por nuestros #kebablovers. Es el que más se le parece al pan tipo pita, es delgado de 33 cm con sabor suave. Todos los ingredientes son envueltos por el pan formando un cono."
     }
   ],
