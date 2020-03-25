@@ -42,15 +42,22 @@ const BlogSection = () => {
           <TitleArea>
             <Heading content="¿Dónde nos encontramos?" />
             <Text>
-              Actualmente KëbabNation cuenta con dos sucursales abiertas al público. ¿Qué esperas? ¡Ven a probar nuestros Këbabs!.
+              Actualmente KëbabNation cuenta con dos sucursales abiertas al
+              público. ¿Qué esperas? ¡Ven a probar nuestros Këbabs!.
               {/* <a href="#1" className="link">
                 Nuestra sucursal
               </a> */}
             </Text>
           </TitleArea>
           <LinkArea>
-            <a href="https://wa.me/15530845459" className="text__btn" target="_blank">
-              <span className="text">Escríbenos por WhatsApp: 55 3084 45459</span>
+            <a
+              href="https://wa.me/5215530104105?text=Hola,%20estoy%20interesado%20en%20conocer%20los%20horarios%20de%20atención"
+              className="text__btn"
+              target="_blank"
+            >
+              <span className="text">
+                Escríbenos por WhatsApp: 55-3010-4105
+              </span>
               <span className="arrow" />
             </a>
           </LinkArea>
@@ -65,7 +72,12 @@ const BlogSection = () => {
               horarios={item.horarios}
               telefono={item.telefono}
               link={
-                <a className="learn__more-btn" href={item.btnUrl} target="_blank" rel="noopener noreferrer">
+                <a
+                  className="learn__more-btn"
+                  href={item.btnUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   {/* <span className="hyphen"></span> */}
                   <span className="btn_text">{item.btnText}</span>
                 </a>
