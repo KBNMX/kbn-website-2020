@@ -176,7 +176,7 @@ export const PostArea = styled.div`
     margin: 0 50px 30px;
     overflow: hidden;
     border-radius: 10px;
-    box-shadow: 0 0 100px rgba(175, 182, 194, 0.2);
+    box-shadow: 0 0 100px rgba(175, 182, 194, 0.4);
     background-color: ${themeGet('colors.white', '#ffffff')};
     @media only screen and (max-width: 1440px) {
       width: calc(50% - 70px);
@@ -309,10 +309,7 @@ export const PostArea = styled.div`
 
       .learn__more-btn {
         &::before {
-          background-color: ${themeGet(
-            'colors.primary',
-            '#FCF22B'
-          )};
+          background-color: ${themeGet('colors.primary', '#FCF22B')};
         }
       }
     }

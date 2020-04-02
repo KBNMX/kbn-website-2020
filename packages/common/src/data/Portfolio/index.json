@@ -42,35 +42,35 @@
   "AWARDS": [
     {
       "awardLogo": "../../assets/image/portfolio/award-1.png",
-      "awardName": "Free Software Advice",
-      "awardDetails": "Top Rated App Development Companies USA",
+      "awardName": "Periódico El Universal",
+      "awardDetails": "Prueba estos tacos árabes y kebabs en la Nápoles",
       "awardeeLogo": "../../assets/image/portfolio/awardee-1.png",
-      "awardeeName": "Awardee",
-      "date": "The Jury 2018"
+      "awardeeName": "Diana Féito",
+      "date": "22 Dic. 2019"
     },
     {
       "awardLogo": "../../assets/image/portfolio/award-2.png",
-      "awardName": "Free Software Advice",
-      "awardDetails": "Top Rated App Development Companies USA",
-      "awardeeLogo": "../../assets/image/portfolio/awardee-2.png",
-      "awardeeName": "Awardee",
-      "date": "The Jury 2018"
+      "awardName": "Chilango Revista CDMX",
+      "awardDetails": "Déjate sorprender, utilizan ingredientes de calidad",
+      "awardeeLogo": "../../assets/image/portfolio/awardee-1.png",
+      "awardeeName": "Redacción",
+      "date": "26 Feb. 2018"
     },
     {
       "awardLogo": "../../assets/image/portfolio/award-3.png",
-      "awardName": "Free Software Advice",
-      "awardDetails": "Top Rated App Development Companies USA",
-      "awardeeLogo": "../../assets/image/portfolio/awardee-3.png",
-      "awardeeName": "Awardee",
-      "date": "The Jury 2018"
+      "awardName": "MX CITY Guía Insider",
+      "awardDetails": "Los sabores son frescos, equilibrados y  deliciosos",
+      "awardeeLogo": "../../assets/image/portfolio/awardee-1.png",
+      "awardeeName": "Alberto Belmont",
+      "date": "31 Oct. 2016"
     },
     {
       "awardLogo": "../../assets/image/portfolio/award-4.png",
-      "awardName": "Free Software Advice",
-      "awardDetails": "Top Rated App Development Companies USA",
-      "awardeeLogo": "../../assets/image/portfolio/awardee-4.png",
-      "awardeeName": "Awardee",
-      "date": "The Jury 2018"
+      "awardName": "Culinary Backstreets",
+      "awardDetails": "The newest, most-attractive and trendy-ish place",
+      "awardeeLogo": "../../assets/image/portfolio/awardee-1.png",
+      "awardeeName": "James Young",
+      "date": "8 Mayo 2019"
     }
   ],
   "PORTFOLIO_SHOWCASE": [

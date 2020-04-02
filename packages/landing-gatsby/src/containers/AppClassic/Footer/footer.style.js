@@ -4,7 +4,7 @@ import { themeGet } from 'styled-system';
 const FooterArea = styled.footer`
   padding: 96px 0 60px;
   margin-top: 75px;
-  background-color: ${themeGet('colors.secondary', '#09142E')};
+  background-color: ${themeGet('colors.secondary2', '#DB1525')};
   @media only screen and (max-width: 1366px) {
     padding-top: 80px;
     margin-top: 60px;
@@ -16,7 +16,7 @@ const FooterArea = styled.footer`
   }
   .logo {
     img {
-      width: 128px;
+      width: 250px;
       height: auto;
     }
   }
@@ -28,7 +28,7 @@ export const WidgetArea = styled.div`
   max-width: 1008px;
   width: 100%;
   margin: 0 auto;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 
   .col {
     width: calc(100% / 3);
@@ -63,7 +63,7 @@ export const WidgetArea = styled.div`
       color: ${themeGet('colors.white', '#ffffff')};
       font-size: 18px;
       line-height: 24px;
-      font-weight: 500;
+      font-weight: 600;
       @media only screen and (max-width: 1366px) {
         font-size: 16px;
         line-height: 20px;
@@ -74,7 +74,7 @@ export const WidgetArea = styled.div`
     }
 
     p {
-      color: rgba(255, 255, 255, 0.4);
+      color: rgba(255, 255, 255, 0.5);
       font-size: 14px;
       line-height: 24px;
       margin-bottom: 0;

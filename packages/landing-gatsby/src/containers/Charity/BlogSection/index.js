@@ -55,9 +55,7 @@ const BlogSection = () => {
               className="text__btn"
               target="_blank"
             >
-              <span className="text">
-                Escríbenos por WhatsApp: 55-3010-4105
-              </span>
+              <span className="text">WhatsApp: +52 5530104105</span>
               <span className="arrow" />
             </a>
           </LinkArea>

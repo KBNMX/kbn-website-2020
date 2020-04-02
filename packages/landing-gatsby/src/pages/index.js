@@ -11,15 +11,19 @@ import HumanityBlock from '../containers/Charity/HumanityBlock';
 import ClientBlock from '../containers/Charity/ClientBlock';
 import BranchSection from '../containers/Charity/BranchSection';
 import AboutUs from '../containers/Charity/AboutUs';
+import TituloKebabs from '../containers/Charity/TituloKebabs';
 import TituloInfo from '../containers/Charity/TituloInfo';
 import InfoSection from '../containers/Charity/Info2';
 import News from '../containers/Charity/News';
 import FeatureSection from '../containers/Charity/FeatureSection';
 import BlogSection from '../containers/Charity/BlogSection';
 import Testimonial from '../containers/Charity/Testimonial';
-import Footer from '../containers/Charity/Footer';
-// import Project from '../containers/Charity/Project';
 import WorkSection from '../containers/Charity/WorkSection';
+import Footer from '../containers/AppClassic/Footer';
+import AwardsSection from '../containers/Charity/Awards';
+import ContactSection from '../containers/Portfolio/Contact';
+// import Footer from '../containers/Charity/Footer';
+// import Project from '../containers/Interior/Project';
 // import MilestoneBlock from '../containers/Charity/MilestoneBlock';
 // import PromotionBlock from '../containers/Charity/PromotionBlock';
 // import DonateSection from '../containers/Charity/DonateSection';
@@ -51,25 +55,22 @@ export default () => {
             <BannerSection />
             <HumanityBlock />
             <ClientBlock />
+
+            <TituloKebabs />
             <BranchSection />
-            <AboutUs />
+            <WorkSection />
             <TituloInfo />
             <InfoSection />
-            
-            <WorkSection />
+
+            <AboutUs />
             <News />
-            {/* <Project /> */}
+            <AwardsSection />
 
             <FeatureSection />
 
-            {/* 
-            <MilestoneBlock />
-            <PromotionBlock />
-            <DonateSection />
-            <MapSection />
-            <FundraiserSection /> */}
             <BlogSection />
             <Testimonial />
+            <ContactSection />
           </ContentWrapper>
           <Footer />
         </CharityWrapper>

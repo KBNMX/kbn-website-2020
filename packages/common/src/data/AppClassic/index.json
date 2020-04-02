@@ -418,53 +418,57 @@
     "title": "Start your 30 days free trail today!",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore."
   },
+
   "footer": {
     "widgets": [
       {
         "id": 1,
-        "icon": "../../assets/image/appClassic/chat.svg",
-        "title": "Join the Community",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore."
+        "icon": "../../assets/image/appClassic/facebook.svg",
+        "title": "Visitanos en Facebook",
+        "description": "Nos gustaría mucho que nos visitaras y dejaras un review de tu visita.",
+        "link": "https://www.facebook.com/kebabnation/"
       },
       {
         "id": 2,
-        "icon": "../../assets/image/appClassic/group.svg",
-        "title": "Join in Chat Community",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore."
+        "icon": "../../assets/image/appClassic/instagram.svg",
+        "title": "Perfil de Instagram",
+        "description": "Nuestros Këbabs nunca se habían visto más guapos que en nuestro Insta.",
+        "link": "https://www.instagram.com/kebabnation/"
       },
       {
         "id": 3,
-        "icon": "../../assets/image/appClassic/github.svg",
-        "title": "Github Access",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore."
+        "icon": "../../assets/image/appClassic/whatsapp.svg",
+        "title": "Escríbenos en WhatsApp",
+        "description": "Si deseas alguna información adicional o pedir a domicilio, escríbenos.",
+        "link": "https://wa.me/5215530104105?text=Hola,%20estoy%20interesado%20en%20"
       }
     ],
     "logo": "../../assets/image/appClassic/logoWhite.png",
     "menu": [
       {
         "id": 1,
-        "text": "Home",
-        "link": "#"
+        "text": "Inicio",
+        "link": "#inicio1"
       },
       {
         "id": 2,
-        "text": "Adversite",
-        "link": "#"
+        "text": "Nuestros Këbabs",
+        "link": "#nuestroskebabs"
       },
       {
         "id": 3,
-        "text": "Supports",
-        "link": "#"
+        "text": "Lo que somos",
+        "link": "#feature"
       },
       {
         "id": 4,
-        "text": "Marketing",
-        "link": "#"
+        "text": "Sucursales",
+        "link": "#sucursales"
       },
       {
         "id": 5,
-        "text": "Contact",
-        "link": "#"
+        "text": "Recomendaciones",
+        "link": "#testimonial"
       }
     ]
   }

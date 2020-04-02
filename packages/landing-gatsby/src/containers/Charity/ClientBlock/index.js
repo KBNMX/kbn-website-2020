@@ -9,7 +9,6 @@ const ClientBlock = () => {
       charityJson {
         clients {
           id
-          link
           logo {
             publicURL
           }
@@ -26,7 +25,6 @@ const ClientBlock = () => {
           {data.charityJson.clients.map(item => (
             <Logo
               key={`slide1__key${item.id}`}
-              href={item.link}
               logoSrc={item.logo.publicURL}
               title={item.name}
             />
@@ -36,7 +34,6 @@ const ClientBlock = () => {
           {data.charityJson.clients.map(item => (
             <Logo
               key={`slide2__key${item.id}`}
-              href={item.link}
               logoSrc={item.logo.publicURL}
               title={item.name}
             />

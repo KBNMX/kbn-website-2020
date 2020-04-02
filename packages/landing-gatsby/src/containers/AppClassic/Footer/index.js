@@ -6,6 +6,7 @@ import Image from 'reusecore/src/elements/Image';
 import Logo from 'reusecore/src/elements/UI/Logo';
 import Heading from 'reusecore/src/elements/Heading';
 import Container from 'common/src/components/UI/Container';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import FooterArea, {
   WidgetArea,
   MenuArea,
@@ -34,6 +35,7 @@ const Footer = () => {
             }
             title
             description
+            link
           }
         }
       }
@@ -51,7 +53,9 @@ const Footer = () => {
           {widgets.map(item => (
             <Box className="col" key={`footer-widget--key${item.id}`}>
               <Image src={item.icon.publicURL} alt={item.title} />
-              <Heading as="h3" content={item.title} />
+              <a href={item.link}>
+                <Heading as="h3" content={item.title} />
+              </a>
               <Text content={item.description} />
             </Box>
           ))}
@@ -60,18 +64,29 @@ const Footer = () => {
         <MenuArea>
           <Logo
             className="logo"
-            href="/appclassic"
+            href="#inicio1"
             logoSrc={logo.publicURL}
-            title="App Classic"
+            title="KëbabNation"
           />
           <Menu>
             {menu.map(item => (
+              // <MenuItem key={`footer-link${item.id}`}>
+              //   <a href={item.link}>{item.text}</a>
+              // </MenuItem>
               <MenuItem key={`footer-link${item.id}`}>
-                <a href={item.link}>{item.text}</a>
+                <AnchorLink
+                  className="smooth_scroll"
+                  href={item.link}
+                  offset={81}
+                >
+                  {item.text}
+                </AnchorLink>
               </MenuItem>
             ))}
           </Menu>
-          <CopyrightText>Copyright {year} By RedQ Inc</CopyrightText>
+          <CopyrightText>
+            Copyright {year} KëbabNation | Kebabs, Falafel y Tacos Árabes
+          </CopyrightText>
         </MenuArea>
         {/* End of footer menu area */}
       </Container>
