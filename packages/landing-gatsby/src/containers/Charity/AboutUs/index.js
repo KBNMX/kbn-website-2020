@@ -33,6 +33,14 @@ const AboutUs = () => {
   `);
   const { thumb_url, slogan, title, text, text2 } = data.charityJson.aboutData;
 
+  const textoa = text => {
+    return { __html: text };
+  };
+
+  const textob = text2 => {
+    return { __html: text2 };
+  };
+
   // const setTitle = title => {
   //   return { __html: title };
   // };
@@ -57,8 +65,8 @@ const AboutUs = () => {
           <Fade right>
             <Heading as="h5" content={slogan} />
             <Heading content={title} />
-            <Text content={text} />
-            <Text content={text2} />
+            <Text dangerouslySetInnerHTML={textoa(text)} />
+            <Text dangerouslySetInnerHTML={textoa(text2)} />
 
             {/* <AnchorLink href="#nuestrospanes" offset="81" className="learn__more-btn">
               <span className="hyphen" />

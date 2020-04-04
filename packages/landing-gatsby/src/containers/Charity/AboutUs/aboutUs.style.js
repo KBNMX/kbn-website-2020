@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 const SectionWrapper = styled.div`
-  padding: 81px 0;
+  padding: 180px 0 81px 0;
   @media only screen and (max-width: 1440px) {
-    padding: 60px 0;
+    padding: 140px 0 60px 0;
   }
   @media only screen and (max-width: 767px) {
-    padding: 42px 0;
+    padding: 130px 0 42px 0;
   }
 `;
 

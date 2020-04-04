@@ -40,7 +40,7 @@ export default () => {
   return (
     <ThemeProvider theme={charityTheme}>
       <Fragment>
-        <SEO title="KëbabNation" />
+        <SEO title="KëbabNation - Lo que somos" />
         <ResetCSS />
         <GlobalStyle />
         {/* Start charity wrapper section */}
@@ -52,34 +52,13 @@ export default () => {
             <DrawerSection />
           </DrawerProvider>
           <ContentWrapper>
-            {/* Inicio */}
-            <BannerSection />
-            <HumanityBlock />
-            <ClientBlock />
+            {/* Historia */}
+            <AboutUs />
 
-            {/* sucursales */}
-            <BlogSection />
+            {/* 2020 */}
+            <News />
 
-            {/* Como Armar tu Kebab */}
-            <WorkSection />
-
-            {/* Nuestros Kebabs */}
-            <TituloKebabs />
-            <BranchSection />
-
-            {/* Nuestros Panes */}
-            <TituloInfo />
-            <InfoSection />
-
-            {/* Lo que somos */}
-            <FeatureSection />
-
-            {/* Opiniones */}
-            <Testimonial />
-
-            {/* Prensa */}
-            <AwardsSection />
-
+            {/* Messenger */}
             <ContactSection />
           </ContentWrapper>
           <Footer />

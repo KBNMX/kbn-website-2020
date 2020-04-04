@@ -17,20 +17,19 @@ const Navbar = () => {
           <Image src={logoImage} alt="KëbabNation" />
         </Link>
         <MenuWrapper>
-          <AnchorLink
+          <Link to="/nosotros">SOBRE NOSOTROS</Link>
+
+          {/* <AnchorLink
             className="smooth_scroll"
             href="#nuestroskebabs"
             offset={81}
           >
-            IR AL MENÚ
-          </AnchorLink>
-          <a
-            href="https://www.facebook.com/pg/kebabnation/reviews/"
-            target="_blank"
-          >
+            SOBRE NOSOTROS
+          </AnchorLink> */}
+          <a href="#nuestroskebabs">
             <Button>
-              <span className="text">LEE LAS OPINIONES</span>
-              <Image src={heartImage} alt="Charity Landing" />
+              <span className="text">IR AL MENU</span>
+              <Image src={heartImage} alt="Menu" />
             </Button>
           </a>
         </MenuWrapper>

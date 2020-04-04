@@ -6,23 +6,18 @@
       "offset": "81"
     },
     {
+      "label": "Sucursales",
+      "path": "#sucursales",
+      "offset": "81"
+    },
+    {
       "label": "Nuestros Këbabs",
       "path": "#panes",
       "offset": "100"
     },
     {
-      "label": "Nuestros origenes",
-      "path": "#aboutUs",
-      "offset": "81"
-    },
-    {
       "label": "Lo que somos",
       "path": "#feature",
-      "offset": "81"
-    },
-    {
-      "label": "Sucursales",
-      "path": "#sucursales",
       "offset": "81"
     },
     {
@@ -211,22 +206,35 @@
   "humanityData": {
     "image": "../../assets/image/charity/fachada-kebabnation.jpg",
     "slogan": "LOS MEJORES KEBABS DE LA CIUDAD",
-    "title": "Bienvenido a los mejores Këbabs de la ciudad",
-    "texto": "Viaja a través de nuestro menú y conoce nuevos sabores en un gran ambiente. En KëbabNation <a href='#sucursales' className='text__btn'><strong>Nápoles</strong></a> y/o <a href='#sucursales' className='text__btn'><strong>San Miguel Chapultepec</strong></a>.",
-    "texto2": "O navega en esta página donde tienes toda nuestra información, ¿prefieres <a href='https://www.facebook.com/pg/kebabnation/' className='text__btn' target='_blank'><strong>Facebook</strong></a>, para leer algunos de los reviews? o <a href='https://www.instagram.com/kebabnationmx/' className='text__btn' target='_blank'><strong>Instagram</strong></a> para ver más de nuestros platos.",
+    "title": "¿Qué nos hace diferentes?",
+    "texto": "<strong>KëbabNation</strong> crea los únicos KËBABS en México con <strong>pan artesanal</strong> estilo mediterráneo, <strong>salsas tradicionales hechas en casa</strong>, opciones <strong>veganas</strong> y carne de <strong>cordero</strong> de la más <strong>alta calidad</strong> que, además de <strong>saludables</strong>; ¡son <strong>deliciosos</strong>!",
+    "texto2": "Somos un Restaurante que se preocupa por tener los <strong>ingredientes</strong> más <strong>frescos</strong> en un <strong>ambiente</strong> totalmente <strong>inclusivo</strong>.",
     "lists": [
       {
         "id": 1,
-        "text": "Ven con tu familia o compañeros de oficina"
+        "text": "100% #KebabLove - nuestros platillos son creados con mucho amor, además:"
       },
       {
         "id": 2,
-        "text": "Carnivoros y veganos bienvenidos"
+        "text": "El 100% de nuestros ingredientes son frescos"
       },
       {
         "id": 3,
-        "text": "Nuestra calidez es la mejor"
+        "text": "Creamos un delicioso pan artesanal, salsas y aderezos hechos en casa"
+      },
+      {
+        "id": 4,
+        "text": "Contamos con opciones veganas y vegetarianas"
+      },
+      {
+        "id": 5,
+        "text": "Nuestro cordero y proteínas son de la más alta calidad"
+      },
+      {
+        "id": 6,
+        "text": "Somos un restaurante familiar, pet-friendly y eco-friendly"
       }
+
     ]
   },
   "promotionData": {
@@ -416,8 +424,8 @@
     "thumb_url": "../../assets/image/charity/about_parent.png",
     "slogan": "NUESTRA HISTORIA",
     "title": "Y todo comenzó así.",
-    "text": "Un joven mexicano que se encontró entre diferentes culturas aprendió que el mundo es más pequeño de lo que parece y fue creando el sueño de dar a conocer esto a través de la gastronomía árabe.​",
-    "text2": "Con el paso de los años se encontró a un grupo de emprendedores con la misma hambre de crear un concepto innovador y al paso de unos meses crearon KëbabNation.​"
+    "text": "<strong>Cumplimos más de 5 años sirviendo Këbabs, Falafels, Hummus y mucho más a nuestros maravillosos #KebabLovers.</strong>",
+    "text2": "Somos un grupo de mexicanos que tuvieron la oportunidad de experimentar la gastronomía internacional viviendo y viajando a distintas partes del mundo. Cuando descubrimos la cultura y los sabores turcos, árabes y mediterráneos nos dimos cuenta que en México no existía un sazón similar, con la variedad de especias, aderezos y pan tradicional como en el Medio Oriente.<br /><br />Decidimos crear KëbabNation como una cocina casual con toques gourmet. Combinamos sabores únicos con la creatividad y técnica culinaria de nuestro chef y mezclamos la cocina de distintas culturas con ingredientes locales e importados, de la más alta calidad, para lograr platillos exóticos y deliciosos. En nuestro restaurante encontrarás: këbabs, tacos árabes, costras turcas, hummus, tabbule, falafel y postres para chuparse los dedos.<br /><br /> Tenemos 2 sucursales en la Ciudad de México y… ¡vamos por más!<br /><br />Recuerda que en KëbabNation nos preocupa tu bienestar, somos incluyentes, familiares, ecológicos y utilizamos productos frescos. Carnívoros y vegetarianos o veganos ¡Bienvenidos!<br /><br />Conoce los mejores Këbabs de México y conviértete en uno de nuestros #KebabLovers​"
   },
   "testimonial": {
     "slogan": "OPINIONES Y RECOMENDACIONES",

@@ -61,10 +61,14 @@ const BannerSection = () => {
             <strong>PROMO</strong> En Enero muchas sorpresas
             <Icon icon={chevronRight} />
           </HighlightedText> */}
-          <Heading content="Incluyente, creativo, delicioso." />
+          <Heading
+            content="KëbabNation es una exótica Cocina Urbana con sabores del Medio Oriente que se inspira en la gastronomía Mediterránea, Turca y Árabe para sorprender tu paladar.
+"
+          />
           <Heading
             as="h4"
-            content="Así es KëbabNation, el lugar donde puedes abrir tu mente y tu hambre a algo diferente."
+            content="Reunimos las delicias más emblemáticas de Oriente Medio creando platillos exquisitos en un ambiente fresco, casual y lleno de buena energía para que disfrutes el arte culinario más extravagante en la ciudad.
+            "
           />
           <Text content="Inspirados en la comida árabe, hemos creado una cocina urbana diferente con toques de otros países." />
           {/* <Link className="learn__more-btn" to="#branch">

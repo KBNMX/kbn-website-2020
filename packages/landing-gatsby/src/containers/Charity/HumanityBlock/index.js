@@ -36,7 +36,14 @@ const HumanityBlock = ({ row, col }) => {
     }
   `);
 
-  const { slogan, title, texto, texto2, lists, image } = data.charityJson.humanityData;
+  const {
+    slogan,
+    title,
+    texto,
+    texto2,
+    lists,
+    image,
+  } = data.charityJson.humanityData;
 
   const textoa = texto => {
     return { __html: texto };
@@ -69,7 +76,11 @@ const HumanityBlock = ({ row, col }) => {
                 ))}
               </List>
 
-              <AnchorLink href="#panes" offset="81" className="learn__more-btn">
+              <AnchorLink
+                href="#nuestroskebabs"
+                offset="81"
+                className="learn__more-btn"
+              >
                 <span className="hyphen" />
                 <span className="btn_text">Conoce nuestros Këbabs</span>
               </AnchorLink>
