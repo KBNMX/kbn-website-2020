@@ -23,6 +23,7 @@ const AboutUs = () => {
               }
             }
           }
+          slogan
           title
           text
           text2
@@ -30,7 +31,7 @@ const AboutUs = () => {
       }
     }
   `);
-  const { thumb_url, title, text, text2 } = data.charityJson.aboutData;
+  const { thumb_url, slogan, title, text, text2 } = data.charityJson.aboutData;
 
   // const setTitle = title => {
   //   return { __html: title };
@@ -54,14 +55,15 @@ const AboutUs = () => {
         </ImageWrapper>
         <TextWrapper>
           <Fade right>
+            <Heading as="h5" content={slogan} />
             <Heading content={title} />
             <Text content={text} />
             <Text content={text2} />
 
-            <AnchorLink href="#nuestrospanes" offset="81" className="learn__more-btn">
-                <span className="hyphen" />
-                <span className="btn_text">Conoce nuestros panes</span>
-              </AnchorLink>
+            {/* <AnchorLink href="#nuestrospanes" offset="81" className="learn__more-btn">
+              <span className="hyphen" />
+              <span className="btn_text">Conoce nuestros panes</span>
+            </AnchorLink> */}
           </Fade>
         </TextWrapper>
       </Container>

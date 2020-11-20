@@ -4,7 +4,7 @@ import Line from 'common/src/assets/image/portfolio/dotted-line.png';
 
 export const GlobalStyle = createGlobalStyle`
   body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
 
   h1,
@@ -13,8 +13,8 @@ export const GlobalStyle = createGlobalStyle`
   h4,
   h5,
   h6 {
-    font-family: 'Raleway', sans-serif;
-    margin-top: 0;
+    color: ${themeGet('colors.heading', '#060F1E')};
+    font-family: 'Open Sans', sans-serif;
   }
 
   section {
@@ -50,7 +50,7 @@ export const GlobalStyle = createGlobalStyle`
             font-weight: 500;
             color: #343d48;
             position: relative;
-            font-family: 'Raleway', sans-serif;
+            font-family: 'Open Sans', sans-serif;
             transition: 0.15s ease-in-out;
             @media (max-width: 767px) {
               font-size: 18px;
@@ -89,7 +89,7 @@ export const GlobalStyle = createGlobalStyle`
       }
       .navbar_drawer_button button{
         width: 100%;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Open Sans', sans-serif;
       }
     }
 
@@ -147,7 +147,7 @@ export const ContentWrapper = styled.div`
     transition: 0.2s ease-in-out;
     &:before {
       content: '';
-      background-color: ${themeGet('colors.primary', '#3444f1')};
+      background-color: #db1525;
       position: absolute;
       width: calc(100% + 4px);
       height: calc(100% + 4px);
@@ -209,7 +209,7 @@ export const ContentWrapper = styled.div`
           font-weight: 700;
           color: #fff;
           position: relative;
-          font-family: 'Raleway', sans-serif;
+          font-family: 'Open Sans', sans-serif;
           transition: 0.15s ease-in-out;
           &:hover {
             color: #fff;
@@ -224,7 +224,7 @@ export const ContentWrapper = styled.div`
             position: absolute;
             width: calc(100% - 8px);
             height: 11px;
-            background: #3444f1;
+            background: #db1525;
             bottom: 6px;
             left: 0;
             z-index: -1;
@@ -240,7 +240,7 @@ export const ContentWrapper = styled.div`
     }
     .navbar_button {
       button {
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Open Sans', sans-serif;
         font-weight: 700;
       }
       @media (max-width: 990px) {
@@ -314,7 +314,7 @@ export const PrevButton = styled.div`
   cursor: pointer;
   &:hover {
     span {
-      background: #3444f1;
+      background: #db1525;
       @media (min-width: 991px) {
         width: 100px;
       }
@@ -323,7 +323,7 @@ export const PrevButton = styled.div`
   span {
     width: 18px;
     height: 2px;
-    background: #d1d3de;
+    background: #616970;
     display: block;
     position: relative;
     transition: 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
@@ -357,7 +357,7 @@ export const NextButton = styled.div`
   cursor: pointer;
   &:hover {
     span {
-      background: #3444f1;
+      background: #db1525;
       @media (min-width: 991px) {
         width: 100px;
       }
@@ -366,7 +366,7 @@ export const NextButton = styled.div`
   span {
     width: 18px;
     height: 2px;
-    background: #d1d3de;
+    background: #616970;
     display: block;
     position: relative;
     transition: 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);

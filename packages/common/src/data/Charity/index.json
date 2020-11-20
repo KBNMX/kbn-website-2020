@@ -2,7 +2,7 @@
   "menuItems": [
     {
       "label": "Inicio",
-      "path": "#inicio",
+      "path": "#inicio1",
       "offset": "81"
     },
     {
@@ -47,8 +47,18 @@
     {
       "id": 4,
       "thumb_url": "../../assets/image/charity/banner/slide4.jpg"
+    },
+    {
+      "id": 5,
+      "thumb_url": "../../assets/image/charity/banner/slide5.jpg"
     }
   ],
+  
+  "tituloKebabs": {
+    "title": "Nuestros Këbabs",
+    "slogan": "Tenemos 5 tipos de Këbabs para satisfacer los paladar de nuestros comensales. Elige la combinación que más te guste."
+  },
+  
   "tituloInfo": {
     "title": "Nuestros Panes",
     "slogan": "Tenemos 5 tipos de Pan Árabe. Estos representan diferentes regiones en el mediterráneo para que tu puedas elegir la combinación que más te guste. Tres de ellos están hechos en casa y dos más con panaderos especializados, pero todos ellos horneados de manera artesanal, con diferentes técnicas culinarias y sabores."
@@ -138,10 +148,10 @@
     },
     {
       "id": 5,
-      "menuItem": "El Dürum",
+      "menuItem": "El Dürüm",
       "image": "../../assets/image/charity/branch/durum-ny.jpg",
-      "slogan": "PAN DÜRUM",
-      "title": "El <strong>magnánimo</strong> Dürum, el más indulgente. Parecido al pan pita pero <strong>de 33 cm.</strong>",
+      "slogan": "PAN DÜRÜM",
+      "title": "El <strong>magnánimo</strong> Dürüm, el más indulgente. Parecido al pan pita pero <strong>de 33 cm.</strong>",
       "description": "Todos los ingredientes le dan un sabor suave, envueltos por el pan formando un cono.",
       "linkUrl": "https://nationkv2.cloudwaitress.com/",
       "linkText": "PÍDELO A DOMICILIO"
@@ -285,7 +295,7 @@
     {
       "id": 2,
       "title": "Sucursal Nápoles",
-      "excerpt": "Nos ubicamos en San Antonio #62, Col. Nápoles, Benito Juárez, en la CDMX. Tel: (55)12341234",
+      "excerpt": "Nos ubicamos en San Antonio #62, Col. Nápoles, Benito Juárez, en la CDMX.",
       "horarios": "Horario: Lunes a miércoles de 12:00 pm a 9:00 pm; Jueves a sábado de 12:00 pm a 10:00 pm; Domingo de 12:00 pm a 7:00 pm",
       "telefono": "Tels: <a href='tel:55-7160-1474'>55-7160-1474</a> y <a href='tel:55-7258-9163'>55-7258-9163</a>",
       "thumbUrl": "../../assets/image/charity/blog/thumb-2.png",
@@ -297,32 +307,27 @@
     {
       "id": 1,
       "logo": "../../assets/image/charity/clients/1.png",
-      "name": "Carne 100% fresca",
-      "link": "#1"
+      "name": "Carne 100% fresca"
     },
     {
       "id": 2,
       "logo": "../../assets/image/charity/clients/2.png",
-      "name": "Low Carb",
-      "link": "#2"
+      "name": "Low Carb"
     },
     {
       "id": 3,
       "logo": "../../assets/image/charity/clients/3.png",
-      "name": "Opciones veganas",
-      "link": "#3"
+      "name": "Opciones veganas"
     },
     {
       "id": 4,
       "logo": "../../assets/image/charity/clients/4.png",
-      "name": "Pet Friendly",
-      "link": "#4"
+      "name": "Pet Friendly"
     },
     {
       "id": 5,
       "logo": "../../assets/image/charity/clients/5.png",
-      "name": "Incluyente",
-      "link": "#5"
+      "name": "Incluyente"
     }
   ],
   "menuWidgets": [
@@ -404,6 +409,7 @@
   ],
   "aboutData": {
     "thumb_url": "../../assets/image/charity/about_parent.png",
+    "slogan": "NUESTRA HISTORIA",
     "title": "Y todo comenzó así.",
     "text": "Un joven mexicano que se encontró entre diferentes culturas aprendió que el mundo es más pequeño de lo que parece y fue creando el sueño de dar a conocer esto a través de la gastronomía árabe.​",
     "text2": "Con el paso de los años se encontró a un grupo de emprendedores con la misma hambre de crear un concepto innovador y al paso de unos meses crearon KëbabNation.​"
@@ -485,7 +491,7 @@
       {
         "id": 8,
         "title": "¡Delicioso! Bien servido",
-        "description": "Las salsas mmmm! La mayonesa vegana mmmmm! El Ayran y los Dürum fantásticos! Lo súper recomiendo. Aparte el servicio excelente, el host Hugo atento a más no poder y con el conocimiento perfecto de todo lo que sirven. Excelente servicio ⭐️⭐️⭐️⭐️🌟",
+        "description": "Las salsas mmmm! La mayonesa vegana mmmmm! El Ayran y los Dürüm fantásticos! Lo súper recomiendo. Aparte el servicio excelente, el host Hugo atento a más no poder y con el conocimiento perfecto de todo lo que sirven. Excelente servicio ⭐️⭐️⭐️⭐️🌟",
         "avatar": "https://scontent.fmex7-1.fna.fbcdn.net/v/t1.0-1/p100x100/85139599_2427392377367354_8776934976986808320_n.jpg?_nc_cat=108&_nc_ohc=_G-0Oiqbb7AAX-_aAWZ&_nc_ht=scontent.fmex7-1.fna&_nc_tp=6&oh=43464a9ba05a28536ed27a93f52659b1&oe=5EFC614F",
         "name": "Nelly Carrillo",
         "designation": "Facebook",
@@ -498,21 +504,21 @@
     {
       "id": 1,
       "title": "2014",
-      "excerpt": "Iniciamos con la planeación y realizamos pruebas internas del menú que serían la base para los productos y platilos que ahora se ofrecen en KëbabNation.",
+      "excerpt": "Iniciamos con la planeación y realizamos pruebas internas del menú que serían la base para los productos y platillos que ahora se ofrecen en KëbabNation.",
       "link_text": "Read",
       "link_url": "#"
     },
     {
       "id": 2,
       "title": "2015",
-      "excerpt": "Iniciamos la venta en ferias, mercados de comida artesanal en México y eventos privados​.",
+      "excerpt": "Un gran año para el equipo KëbabNation. Iniciamos con la venta en diversas ferias gastronómicas, mercados de comida artesanal en México y eventos privados​ con gran éxito. ",
       "link_text": "Read",
       "link_url": "#"
     },
     {
       "id": 3,
       "title": "2016",
-      "excerpt": "Aperturamos la primera sucursal en San Miguel Chapultepec, manteniendo un producto de alta calidad y fomentando en los clientes el interes por la comida árabe y el concepto.",
+      "excerpt": "Aperturamos la primera sucursal en San Miguel Chapultepec, manteniendo un producto de alta calidad y fomentando en los clientes el interés por la comida árabe y el concepto.",
       "link_text": "Read",
       "link_url": "#"
     },
@@ -544,7 +550,7 @@
       "description": "Si buscas una textura crujiente por fuera y suave por dentro este debe ser tu elección. También es un pan vegano y se hace de masa madre, se deja reposar día y medio para que tome una textura esponjosa y al calentarlo su corteza sea crujiente, tiene forma triangular, se rellena y presenta  abierto estilo almeja."
     },
     {
-      "title": "Dürum",
+      "title": "Dürüm",
       "description": "El magnánimo, nombrado así por nuestros #kebablovers. Es el que más se le parece al pan tipo pita, es delgado de 33 cm con sabor suave. Todos los ingredientes son envueltos por el pan formando un cono."
     }
   ],

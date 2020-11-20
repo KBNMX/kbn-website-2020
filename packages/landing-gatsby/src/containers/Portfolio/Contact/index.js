@@ -4,12 +4,12 @@ import Box from 'reusecore/src/elements/Box';
 import Text from 'reusecore/src/elements/Text';
 import Heading from 'reusecore/src/elements/Heading';
 import Image from 'reusecore/src/elements/Image';
-import Button from 'reusecore/src/elements/Button';
 import Container from 'common/src/components/UI/Container';
 
 import { ButtonWrapper } from '../../Portfolio/portfolio.style';
-import { ActiveStatus } from './contact.style';
+import { ActiveStatus, MenuWrapper, Button } from './contact.style';
 import Author from 'common/src/assets/image/portfolio/avatar.png';
+import icoMessenger from 'common/src/assets/image/charity/ico-messenger.png';
 
 const ContactSection = ({
   sectionWrapper,
@@ -25,29 +25,33 @@ const ContactSection = ({
     <Box {...sectionWrapper} as="section">
       <Container noGutter mobileGutter width="1200px">
         <Box {...secTitleWrapper}>
-          <Heading {...secTitle} content="Let’s Work Together" />
+          <Heading {...secTitle} content="¿Qué va a llevar?" />
           <Text
             {...secDescription}
-            content="If you have a website or mobile app idea in mind or you need some advice about product design, feel free to contact me. Currently my time books quickly, so the sooner you write, the better it is for both of us."
+            content="Si tienes en mente un antojo o una recomendación o necesitas algún consejo sobre cuál Këbab calmará tu apetito, no dudes en ponerse en contacto con nosotros. Actualmente, estamos apoyando la situacion de nuestro país con servicio a domicilio."
           />
         </Box>
         <Box {...replyWrapper}>
           <ActiveStatus>
-            <Image src={Author} alt="Author Avatar" />
+            <Image src={Author} alt="Avatar KebabNation" />
           </ActiveStatus>
           <Heading
             as="h4"
-            content="Reply time: within 1-2 working days"
+            content="Tiempo de respuesta: dentro de 2-5 minutos"
             {...replyTime}
           />
         </Box>
         <Box {...buttonWrapper}>
           <ButtonWrapper>
-            <Button
-              title="hello@redq.io"
-              className="portfolio_button"
-              {...buttonStyle}
-            />
+            <a
+              href="https://www.messenger.com/t/edgarbarrios.design"
+              target="_blank"
+            >
+              <Button>
+                <span className="text">ABRIR CHAT</span>
+                <Image src={icoMessenger} alt="Messenger Bot" />
+              </Button>
+            </a>
           </ButtonWrapper>
         </Box>
       </Container>
@@ -109,8 +113,8 @@ ContactSection.defaultProps = {
   buttonStyle: {
     type: 'button',
     fontSize: '16px',
-    fontWeight: '500',
-    color: '#fff',
+    fontWeight: '400',
+    color: '#000',
     pl: '23px',
     pr: '23px',
   },

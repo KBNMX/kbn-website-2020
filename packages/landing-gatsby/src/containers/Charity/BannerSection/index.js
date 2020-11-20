@@ -49,7 +49,7 @@ const BannerSection = () => {
   return (
     <BannerWrapper>
       <LeftBar text="SCROLL DOWN" offset={81} sectionId="#inicio" />
-      <ContentWrapper>
+      <ContentWrapper id="inicio1">
         <TextArea>
           <Fade up>
             <RatingInfo>
@@ -61,16 +61,12 @@ const BannerSection = () => {
             <strong>PROMO</strong> En Enero muchas sorpresas
             <Icon icon={chevronRight} />
           </HighlightedText> */}
-          <Heading
-            content="Incluyente, creativo, delicioso."
-          />
+          <Heading content="Incluyente, creativo, delicioso." />
           <Heading
             as="h4"
             content="Así es KëbabNation, el lugar donde puedes abrir tu mente y tu hambre a algo diferente."
           />
-          <Text
-            content="Inspirados en la comida árabe, hemos creado una cocina urbana diferente con toques de otros países."
-          />
+          <Text content="Inspirados en la comida árabe, hemos creado una cocina urbana diferente con toques de otros países." />
           {/* <Link className="learn__more-btn" to="#branch">
             <span className="hyphen" />
             <span className="btn_text">Explora KebabNation</span>

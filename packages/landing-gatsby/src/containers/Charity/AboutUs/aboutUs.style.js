@@ -55,6 +55,27 @@ export const TextWrapper = styled.div`
     width: 100%;
   }
 
+  h5 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+    color: #db1525;
+    text-transform: uppercase;
+    @media only screen and (max-width: 1440px) {
+      margin-bottom: 27px;
+    }
+    @media only screen and (max-width: 1360px) {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+    @media only screen and (max-width: 991px) {
+      font-size: 13px;
+      margin-bottom: 15px;
+    }
+  }
+
   h2 {
     font-size: 50px;
     line-height: 70px;
@@ -79,8 +100,6 @@ export const TextWrapper = styled.div`
       line-height: 40px;
     }
   }
-
-  
 
   p {
     margin-bottom: 30px;

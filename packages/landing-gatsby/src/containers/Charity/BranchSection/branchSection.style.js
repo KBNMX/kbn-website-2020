@@ -128,7 +128,7 @@ const SectionWrapper = styled.section`
 
 export const ContentWrapper = styled.div`
   display: flex;
-  @media only screen and (max-width: 991px) {
+  @media only screen and (max-width: 1150px) {
     flex-direction: column;
   }
   @media only screen and (max-width: 667px) {
@@ -144,7 +144,7 @@ export const ContentWrapper = styled.div`
     @media only screen and (max-width: 1360px) {
       width: calc(100% - 432px);
     }
-    @media only screen and (max-width: 991px) {
+    @media only screen and (max-width: 1150px) {
       width: 100%;
     }
     @media only screen and (max-width: 667px) {
@@ -176,7 +176,7 @@ export const ContentWrapper = styled.div`
       width: 432px;
       padding: 56px 50px;
     }
-    @media only screen and (max-width: 991px) {
+    @media only screen and (max-width: 1150px) {
       width: 100%;
       padding: 48px 40px;
     }
@@ -207,7 +207,7 @@ export const ContentWrapper = styled.div`
         font-size: 34px;
         line-height: 50px;
       }
-      @media only screen and (max-width: 991px) {
+      @media only screen and (max-width: 1150px) {
         font-size: 30px;
         line-height: 46px;
         margin: 20px 0;
@@ -243,7 +243,7 @@ export const ContentWrapper = styled.div`
       @media only screen and (max-width: 1360px) {
         font-size: 15px;
       }
-      @media only screen and (max-width: 991px) {
+      @media only screen and (max-width: 1150px) {
         margin-bottom: 35px;
       }
     }

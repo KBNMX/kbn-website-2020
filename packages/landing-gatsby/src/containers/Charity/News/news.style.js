@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { themeGet } from 'styled-system';
 
 const SectionWrapper = styled.div`
-  background-color: #fbfafe;
+  background-color: #ea1f25;
   padding-bottom: 20px;
   margin-top: 40px;
   position: relative;
@@ -50,7 +50,7 @@ export const ContentWrapper = styled.div`
   }
   @media only screen and (max-width: 1440px) {
     padding: 0 50px;
-    margin-bottom: -30px;
+    margin-bottom: -75px;
   }
   @media only screen and (max-width: 1200px) {
     padding: 0 30px;
@@ -72,17 +72,19 @@ export const ContentWrapper = styled.div`
       justify-content: center;
       align-items: center;
       font-size: 25vw;
-      color: #D9D5D2;
+      color: #a99798;
       font-weight: 600;
       @media only screen and (min-width: 768px) and (max-width: 1200px) {
         font-size: 22vw;
+        height: 300px;
       }
       @media only screen and (max-width: 767px) {
+        font-size: 32vw;
         height: auto;
-        padding: 0;
+        padding: 0 0 20px 0;
       }
       &:last-child {
-        color: #FEEEBE;
+        color: #fdc30d;
       }
     }
   }
@@ -93,20 +95,19 @@ export const NewsWrapper = styled.div`
   flex-wrap: wrap;
   margin: 0 -30px;
   position: relative;
-  top: -7vw;
+  top: -3vw;
   z-index: 1;
   @media only screen and (max-width: 1440px) {
-    top: -8vw;
+    top: -4vw;
   }
   @media only screen and (max-width: 1360px) {
-    top: -12vw;
+    top: -6vw;
   }
   @media only screen and (min-width: 992px) and (max-width: 1200px) {
-    margin: 0 -15px;
-    top: -14vw;
+    top: -7vw;
   }
   @media only screen and (max-width: 767px) {
-    top: -15vw;
+    top: -8vw;
     padding-bottom: 50px;
   }
 `;
@@ -129,8 +130,9 @@ export const NewsItem = styled.div`
   }
 
   h3 {
-    font-weight: 400;
+    font-weight: 800;
     margin: 0 0 22px;
+    color: #feec92;
     @media only screen and (min-width: 992px) and (max-width: 1200px) {
       font-size: 18px;
       line-height: 28px;
@@ -140,6 +142,8 @@ export const NewsItem = styled.div`
 
   p {
     margin: 0 0 40px;
+    color: #ffffff;
+    font-weight: 500;
   }
 `;
 
