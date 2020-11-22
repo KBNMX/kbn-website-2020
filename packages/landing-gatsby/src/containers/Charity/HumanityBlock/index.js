@@ -27,6 +27,7 @@ const HumanityBlock = ({ row, col }) => {
           title
           texto
           texto2
+          txtboton
           lists {
             id
             text
@@ -36,13 +37,21 @@ const HumanityBlock = ({ row, col }) => {
     }
   `);
 
-  const { slogan, title, texto, texto2, lists, image } = data.charityJson.humanityData;
+  const {
+    slogan,
+    title,
+    texto,
+    texto2,
+    txtboton,
+    lists,
+    image,
+  } = data.charityJson.humanityData;
 
-  const textoa = texto => {
+  const textoa = (texto) => {
     return { __html: texto };
   };
 
-  const textob = texto2 => {
+  const textob = (texto2) => {
     return { __html: texto2 };
   };
 
@@ -53,7 +62,7 @@ const HumanityBlock = ({ row, col }) => {
           <Box className="col" {...col}>
             <ImageWrapper>
               <Fade left delay={30}>
-                <Image src={image.publicURL} alt="Sobre nosotros KebabNation" />
+                <Image src={image.publicURL} alt="Sobre nosotros KëbabNation" />
               </Fade>
             </ImageWrapper>
           </Box>
@@ -64,14 +73,14 @@ const HumanityBlock = ({ row, col }) => {
               <p dangerouslySetInnerHTML={textoa(texto)} />
               <p dangerouslySetInnerHTML={textob(texto2)} />
               <List>
-                {lists.map(item => (
+                {lists.map((item) => (
                   <Item key={`list_key${item.id}`}>{item.text}</Item>
                 ))}
               </List>
 
               <AnchorLink href="#panes" offset="81" className="learn__more-btn">
                 <span className="hyphen" />
-                <span className="btn_text">Conoce nuestros Këbabs</span>
+                <span className="btn_text">{txtboton}</span>
               </AnchorLink>
             </ContentWrapper>
           </Box>

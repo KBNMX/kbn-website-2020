@@ -42,9 +42,24 @@ const BannerSection = () => {
             }
           }
         }
+        txtBannerSlides {
+          rating
+          txttitulo
+          txtsubtitulo
+          txtdesc
+          txtboton
+        }
       }
     }
   `);
+
+  const {
+    rating,
+    txttitulo,
+    txtsubtitulo,
+    txtdesc,
+    txtboton,
+  } = data.charityJson.txtBannerSlides;
 
   return (
     <BannerWrapper>
@@ -53,27 +68,24 @@ const BannerSection = () => {
         <TextArea>
           <Fade up>
             <RatingInfo>
-              <Rating rating={4} />
-              4.8 de 5 por <img src={google} alt="Google Reviews" />
+              <Rating rating={5} />
+              {rating} <img src={google} alt="Google Reviews" />
             </RatingInfo>
           </Fade>
           {/* <HighlightedText className="highlighted_text">
             <strong>PROMO</strong> En Enero muchas sorpresas
             <Icon icon={chevronRight} />
           </HighlightedText> */}
-          <Heading content="Incluyente, creativo, delicioso." />
-          <Heading
-            as="h4"
-            content="Así es KëbabNation, el lugar donde puedes abrir tu mente y tu hambre a algo diferente."
-          />
-          <Text content="Inspirados en la comida árabe, hemos creado una cocina urbana diferente con toques de otros países." />
+          <Heading content={txttitulo} />
+          <Heading as="h4" content={txtsubtitulo} />
+          <Text content={txtdesc} />
           {/* <Link className="learn__more-btn" to="#branch">
             <span className="hyphen" />
             <span className="btn_text">Explora KebabNation</span>
           </Link> */}
           <AnchorLink href="#inicio" offset="81" className="learn__more-btn">
             <span className="hyphen" />
-            <span className="btn_text">Explora KebabNation</span>
+            <span className="btn_text">{txtboton}</span>
           </AnchorLink>
         </TextArea>
         <ImageArea>
@@ -84,7 +96,7 @@ const BannerSection = () => {
             prevButton={<span className="prev_arrow" />}
           >
             <Fragment>
-              {data.charityJson.bannerSlides.map(slide => (
+              {data.charityJson.bannerSlides.map((slide) => (
                 <GlideSlide key={slide.id}>
                   <Image
                     fluid={
@@ -92,7 +104,7 @@ const BannerSection = () => {
                         ? slide.thumb_url.childImageSharp.fluid
                         : {}
                     }
-                    alt={`KebabNation Restaurante de Comida Árabe ${slide.id}`}
+                    alt={`KëbabNation Restaurante de Comida Árabe ${slide.id}`}
                     className="slide_image"
                   />
                 </GlideSlide>

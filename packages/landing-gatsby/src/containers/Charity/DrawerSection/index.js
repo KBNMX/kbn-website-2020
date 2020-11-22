@@ -31,15 +31,20 @@ const DrawerSection = () => {
           label
           offset
         }
+        botonopiniones {
+          txtboton
+        }
       }
     }
   `);
 
   const scrollItems = [];
 
-  data.charityJson.menuItems.forEach(item => {
+  data.charityJson.menuItems.forEach((item) => {
     scrollItems.push(item.path.slice(1));
   });
+
+  const { txtboton } = data.charityJson.botonopiniones;
 
   return (
     <Drawer
@@ -89,10 +94,10 @@ const DrawerSection = () => {
         </Scrollspy>
         <a href="https://www.facebook.com/pg/kebabnation/reviews/">
           <SpreadButton>
-            <span className="text">Lee las opiniones</span>
-            <Image src={heartImage} alt="KëbabNation Landing" />
+            <span className="text">{txtboton}</span>
+            <Image src={heartImage} alt="Facebook Reviews" />
           </SpreadButton>
-          </a>
+        </a>
       </InnerWrapper>
     </Drawer>
   );

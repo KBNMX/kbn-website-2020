@@ -48,7 +48,7 @@ const AboutUs = () => {
                   ? thumb_url.childImageSharp.fluid
                   : {}
               }
-              alt={`KebabNation Kebabs y Falafels`}
+              alt={`KëbabNation Këbabs y Falafels`}
               className="carousel_img"
             />
           </Fade>
