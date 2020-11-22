@@ -27,11 +27,18 @@ const BlogSection = () => {
           btnUrl
           btnText
         }
+        txtSucursales {
+          txttitulo
+          txtdesc
+          whatsapp
+        }
       }
     }
   `);
 
-  const textoa = telefono => {
+  const { txttitulo, txtdesc, whatsapp } = data.charityJson.txtSucursales;
+
+  const textoa = (telefono) => {
     return { __html: telefono };
   };
 
@@ -40,10 +47,9 @@ const BlogSection = () => {
       <Container width="1260px">
         <SectionHeader>
           <TitleArea>
-            <Heading content="¿Dónde nos encontramos?" />
+            <Heading content={txttitulo} />
             <Text>
-              Actualmente KëbabNation cuenta con dos sucursales abiertas al
-              público. ¿Qué esperas? ¡Ven a probar nuestros Këbabs!.
+              {txtdesc}
               {/* <a href="#1" className="link">
                 Nuestra sucursal
               </a> */}
@@ -51,17 +57,17 @@ const BlogSection = () => {
           </TitleArea>
           <LinkArea>
             <a
-              href="https://wa.me/5215530104105?text=Hola,%20estoy%20interesado%20en%20conocer%20los%20horarios%20de%20atención"
+              href="https://wa.me/5215547865928?text=Hola,%20estoy%20interesado%20en%20conocer%20los%20horarios%20de%20atención"
               className="text__btn"
               target="_blank"
             >
-              <span className="text">WhatsApp: +52 5530104105</span>
+              <span className="text">WhatsApp: +52 {whatsapp}</span>
               <span className="arrow" />
             </a>
           </LinkArea>
         </SectionHeader>
         <PostArea>
-          {data.charityJson.posts.map(item => (
+          {data.charityJson.posts.map((item) => (
             <BlogPost
               key={`blog__post-key${item.id}`}
               thumbUrl={item.thumbUrl.publicURL}

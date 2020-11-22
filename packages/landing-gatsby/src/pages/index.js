@@ -43,29 +43,44 @@ export default () => {
         <SEO title="KëbabNation" />
         <ResetCSS />
         <GlobalStyle />
+
         {/* Start charity wrapper section */}
         <CharityWrapper>
           <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
             <Navbar />
           </Sticky>
+
           <DrawerProvider>
+            {/* menu botones */}
             <DrawerSection />
           </DrawerProvider>
+
           <ContentWrapper>
+            {/* Slide de Fotos */}
             <BannerSection />
+
+            {/* Bienvenido a los mejores Këbabs de la ciudad */}
             <HumanityBlock />
             <ClientBlock />
 
+            {/* Nuestros Këbabs */}
             <TituloKebabs />
             <BranchSection />
+
+            {/* ¿Cómo armar tu Këbab? */}
             <WorkSection />
+
+            {/* Nuestros panes */}
             <TituloInfo />
             <InfoSection />
 
             <AboutUs />
             <News />
+
+            {/* Premios y publireportajes */}
             <AwardsSection />
 
+            {/* Lo que somos y nos apasiona */}
             <FeatureSection />
 
             <BlogSection />

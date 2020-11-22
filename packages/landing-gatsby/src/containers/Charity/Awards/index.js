@@ -32,7 +32,7 @@ const AwardsSection = ({
 }) => {
   const Data = useStaticQuery(graphql`
     query {
-      portfolioJson {
+      charityJson {
         AWARDS {
           awardName
           awardeeName
@@ -45,9 +45,15 @@ const AwardsSection = ({
             publicURL
           }
         }
+        awardsTextos {
+          title
+          txtdesc
+        }
       }
     }
   `);
+
+  const { title, txtdesc } = Data.charityJson.awardsTextos;
 
   //Carousel Options
   const carouselOptions = {
@@ -73,11 +79,8 @@ const AwardsSection = ({
     <AwardSectionWrapper id="awards_section">
       <Container noGutter mobileGutter width="1200px">
         <Box {...secTitleWrapper}>
-          <Heading {...secTitle} content="Lo que dicen de nosotros" />
-          <Text
-            {...secDescription}
-            content="Año tras año, KëbabNation ha sido reconocida como una muy buena opción en la ciudad de México. ¡Es agradable sentirse apreciado!"
-          />
+          <Heading {...secTitle} content={title} />
+          <Text {...secDescription} content={txtdesc} />
         </Box>
 
         <GlideCarousel
@@ -95,7 +98,7 @@ const AwardsSection = ({
           }
         >
           <>
-            {Data.portfolioJson.AWARDS.map((award, index) => (
+            {Data.charityJson.AWARDS.map((award, index) => (
               <GlideSlide key={`award-item-${index}`}>
                 <AwardItem>
                   <AwardImageWrapper>

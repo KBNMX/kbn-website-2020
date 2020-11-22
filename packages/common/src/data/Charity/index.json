@@ -53,16 +53,30 @@
       "thumb_url": "../../assets/image/charity/banner/slide5.jpg"
     }
   ],
+
+  "txtBannerSlides": {
+    "rating": "4.8 de 5 por ",
+    "txttitulo": "Incluyente, creativo, delicioso.",
+    "txtsubtitulo": "Así es KëbabNation, el lugar donde puedes abrir tu mente y tu hambre a algo diferente.",
+    "txtdesc": "Inspirados en la comida árabe, hemos creado una cocina urbana diferente con toques de otros países.",
+    "txtboton": "Explora KëbabNation"
+  },
   
+  "botonopiniones": {
+    "txtbotonmenu": "IR AL MENU",
+    "txtboton": "LEE LAS OPINIONES"
+  },
+
   "tituloKebabs": {
     "title": "Nuestros Këbabs",
-    "slogan": "Tenemos 5 tipos de Këbabs para satisfacer los paladar de nuestros comensales. Elige la combinación que más te guste."
+    "slogan": "Tenemos 5 tipos de Këbabs para satisfacer el paladar de nuestros comensales. Elige la combinación que más te guste."
   },
   
   "tituloInfo": {
     "title": "Nuestros Panes",
     "slogan": "Tenemos 5 tipos de Pan Árabe. Estos representan diferentes regiones en el mediterráneo para que tu puedas elegir la combinación que más te guste. Tres de ellos están hechos en casa y dos más con panaderos especializados, pero todos ellos horneados de manera artesanal, con diferentes técnicas culinarias y sabores."
   },
+
   "featureData": {
     "title": "Lo que somos y nos apasiona",
     "slogan": "En KëbabNation nos apasiona la comida y queremos que la disfrutes al máximo. Nos encanta que goces de una gran experiencia, ordenando un Döner Gourmet, un Gyro, Falafel, agua de la casa o un café turco, en un ambiente entre amigos, familia/pareja o mascota. Por eso vigilamos cada detalle en nuestras sucursales y valoramos cada momento que pasamos atendiendo a nuestros clientes y amigos.",
@@ -71,13 +85,13 @@
         "id": 1,
         "icon": "../../assets/image/charity/feature/1.svg",
         "title": "Pet Friendly",
-        "description": "¿Eres amantes de los animales? Nosotros también. Sean todos bienvenidos."
+        "description": "¿Eres amante de los animales? Nosotros también. Sean todos bienvenidos."
       },
       {
         "id": 2,
         "icon": "../../assets/image/charity/feature/2.svg",
         "title": "Ambiente familiar",
-        "description": "Puedes venir solo o acompañado. Siempre una experiencia agradable."
+        "description": "Puedes venir solo o acompañado. Siempre es una experiencia agradable."
       },
       {
         "id": 3,
@@ -171,7 +185,7 @@
         "id": 2,
         "icon": "../../assets/image/charity/paso2.svg",
         "title": "5 opciones de proteína",
-        "description": "Elige el relleno de tu Këbab que se adapte a tu dieta y estilo de vida: carnivoro, vegetariano / vegano."
+        "description": "Elige el relleno de tu Këbab que se adapte a tu dieta y estilo de vida: carnívoro, vegetariano / vegano."
       },
       {
         "id": 3,
@@ -208,12 +222,53 @@
       }
     ]
   },
+
+  "awardsTextos": {
+    "title": "Lo que dicen de nosotros",
+    "txtdesc": "Año tras año, KëbabNation ha sido reconocida como una muy buena opción en la Ciudad de México. ¡Es agradable sentirse apreciado!"
+  },
+  "AWARDS": [
+    {
+      "awardLogo": "../../assets/image/portfolio/award-1.png",
+      "awardName": "Periódico El Universal",
+      "awardDetails": "Prueba estos tacos árabes y këbabs en la Nápoles",
+      "awardeeLogo": "../../assets/image/portfolio/awardee-1.png",
+      "awardeeName": "Diana Féito",
+      "date": "22 Dic. 2019"
+    },
+    {
+      "awardLogo": "../../assets/image/portfolio/award-2.png",
+      "awardName": "Chilango Revista",
+      "awardDetails": "Déjate sorprender, utilizan ingredientes de calidad",
+      "awardeeLogo": "../../assets/image/portfolio/awardee-1.png",
+      "awardeeName": "Redacción",
+      "date": "26 Feb. 2018"
+    },
+    {
+      "awardLogo": "../../assets/image/portfolio/award-3.png",
+      "awardName": "MX CITY Guía Insider",
+      "awardDetails": "Los sabores son frescos, equilibrados y deliciosos",
+      "awardeeLogo": "../../assets/image/portfolio/awardee-1.png",
+      "awardeeName": "Alberto Belmont",
+      "date": "31 Oct. 2016"
+    },
+    {
+      "awardLogo": "../../assets/image/portfolio/award-4.png",
+      "awardName": "Culinary Backstreets",
+      "awardDetails": "The newest, most-attractive and trendy-ish place",
+      "awardeeLogo": "../../assets/image/portfolio/awardee-1.png",
+      "awardeeName": "James Young",
+      "date": "8 Mayo 2019"
+    }
+  ],
+
   "humanityData": {
     "image": "../../assets/image/charity/fachada-kebabnation.jpg",
     "slogan": "LOS MEJORES KEBABS DE LA CIUDAD",
     "title": "Bienvenido a los mejores Këbabs de la ciudad",
     "texto": "Viaja a través de nuestro menú y conoce nuevos sabores en un gran ambiente. En KëbabNation <a href='#sucursales' className='text__btn'><strong>Nápoles</strong></a> y/o <a href='#sucursales' className='text__btn'><strong>San Miguel Chapultepec</strong></a>.",
     "texto2": "O navega en esta página donde tienes toda nuestra información, ¿prefieres <a href='https://www.facebook.com/pg/kebabnation/' className='text__btn' target='_blank'><strong>Facebook</strong></a>, para leer algunos de los reviews? o <a href='https://www.instagram.com/kebabnationmx/' className='text__btn' target='_blank'><strong>Instagram</strong></a> para ver más de nuestros platos.",
+    "txtboton": "Conoce nuestros Këbabs",
     "lists": [
       {
         "id": 1,
@@ -221,7 +276,7 @@
       },
       {
         "id": 2,
-        "text": "Carnivoros y veganos bienvenidos"
+        "text": "Carnívoros y veganos bienvenidos"
       },
       {
         "id": 3,
@@ -281,6 +336,12 @@
       "title": "¥ CNY"
     }
   ],
+
+  "txtSucursales": {
+    "txttitulo": "¿Dónde nos encontramos?",
+    "txtdesc": "Actualmente KëbabNation cuenta con dos sucursales abiertas al público. ¿Qué esperas? ¡Ven a probar nuestros Këbabs!.",
+    "whatsapp": "5547865928"
+  },
   "posts": [
     {
       "id": 1,
@@ -416,12 +477,12 @@
   },
   "testimonial": {
     "slogan": "OPINIONES Y RECOMENDACIONES",
-    "title": "Los KebabLovers hablan de nosotros.",
+    "title": "Los KëbabLovers hablan de nosotros.",
     "reviews": [
       {
         "id": 1,
         "title": "100% recomendable",
-        "description": "Muy rico todo, las papas turcas son geniales, el dürüm y el döner estuvieron muy bien. El servicio rápido y bien, 100 % recomendable.",
+        "description": "Muy rico todo, las papas turcas son geniales, el dürüm y el döner estuvieron muy bien. El servicio rápido y bien, 100% recomendable.",
         "avatar": "https://fastly.4sqi.net/img/user/260x260/GHXKA2HBMYGWXNHV.png",
         "name": "memnoch101",
         "designation": "FourSquare",
@@ -531,6 +592,13 @@
     }
   ],
 
+  "txtServDomicilio": {
+    "txttitulo": "Servicio a Domicilio",
+    "txtdesc": "Si tienes en mente un antojo o una recomendación o necesitas algún consejo sobre cuál Këbab calmará tu apetito, no dudes en ponerte en contacto con nosotros. Actualmente, estamos apoyando la situación de nuestro país con servicio a domicilio.",
+    "cta": "Tiempo de respuesta: dentro de 2-5 minutos",
+    "txtboton": "ABRIR CHAT"
+  },
+  
   "faqPanes": [
     {
       "expend": true,
@@ -543,7 +611,7 @@
     },
     {
       "title": "Döner Gourmet",
-      "description": "Nuestro consentido, pan que enamora. Conocido como pan mediterráneo o pan de agua, es ligero y se presenta abierto estilo almeja. Es un pan vegano ya que no utiliza en su elaboración ningún producto de origen animal. Sabores: romero chia, y 5 chiles (chipotle, cascabel, chile ancho)"
+      "description": "Nuestro consentido, pan que enamora. Conocido como pan mediterráneo o pan de agua, es ligero y se presenta abierto estilo almeja. Es un pan vegano ya que no utiliza en su elaboración ningún producto de origen animal. Sabores: romero chía, y 5 chiles (chipotle, cascabel, chile ancho)"
     },
     {
       "title": "Persa",
@@ -555,6 +623,59 @@
     }
   ],
 
+  "footer": {
+    "widgets": [
+      {
+        "id": 1,
+        "icon": "../../assets/image/appClassic/facebook.svg",
+        "title": "Visitanos en Facebook",
+        "description": "Nos gustaría mucho que nos visitaras y dejaras un review de tu visita.",
+        "link": "https://www.facebook.com/kebabnation/"
+      },
+      {
+        "id": 2,
+        "icon": "../../assets/image/appClassic/instagram.svg",
+        "title": "Perfil de Instagram",
+        "description": "Nuestros Këbabs nunca se habían visto más guapos que en nuestro Insta.",
+        "link": "https://www.instagram.com/kebabnationmx/"
+      },
+      {
+        "id": 3,
+        "icon": "../../assets/image/appClassic/whatsapp.svg",
+        "title": "Escríbenos en WhatsApp",
+        "description": "Si deseas alguna información adicional o pedir a domicilio, escríbenos.",
+        "link": "https://wa.me/5215547865928?text=Hola,%20estoy%20interesado%20en%20"
+      }
+    ],
+    "logo": "../../assets/image/appClassic/logoWhite.png",
+    "menu": [
+      {
+        "id": 1,
+        "text": "Inicio",
+        "link": "#inicio1"
+      },
+      {
+        "id": 2,
+        "text": "Nuestros Këbabs",
+        "link": "#nuestroskebabs"
+      },
+      {
+        "id": 3,
+        "text": "Lo que somos",
+        "link": "#feature"
+      },
+      {
+        "id": 4,
+        "text": "Sucursales",
+        "link": "#sucursales"
+      },
+      {
+        "id": 5,
+        "text": "Recomendaciones",
+        "link": "#testimonial"
+      }
+    ]
+  },
 
   "projectData": {
     "title": "WORK PROCEDURE",

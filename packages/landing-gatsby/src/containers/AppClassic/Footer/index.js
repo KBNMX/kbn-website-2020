@@ -18,7 +18,7 @@ import FooterArea, {
 const Footer = () => {
   const data = useStaticQuery(graphql`
     query {
-      appClassicJson {
+      charityJson {
         footer {
           logo {
             publicURL
@@ -41,7 +41,7 @@ const Footer = () => {
       }
     }
   `);
-  const { logo, menu, widgets } = data.appClassicJson.footer;
+  const { logo, menu, widgets } = data.charityJson.footer;
 
   const date = new Date();
   const year = date.getFullYear();
@@ -50,7 +50,7 @@ const Footer = () => {
     <FooterArea>
       <Container>
         <WidgetArea>
-          {widgets.map(item => (
+          {widgets.map((item) => (
             <Box className="col" key={`footer-widget--key${item.id}`}>
               <Image src={item.icon.publicURL} alt={item.title} />
               <a href={item.link}>
@@ -69,7 +69,7 @@ const Footer = () => {
             title="KëbabNation"
           />
           <Menu>
-            {menu.map(item => (
+            {menu.map((item) => (
               // <MenuItem key={`footer-link${item.id}`}>
               //   <a href={item.link}>{item.text}</a>
               // </MenuItem>
@@ -85,7 +85,7 @@ const Footer = () => {
             ))}
           </Menu>
           <CopyrightText>
-            Copyright {year} KëbabNation | Kebabs, Falafel y Tacos Árabes
+            Copyright {year} KëbabNation | Këbabs, Falafel y Tacos Árabes.
           </CopyrightText>
         </MenuArea>
         {/* End of footer menu area */}
