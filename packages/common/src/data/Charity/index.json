@@ -74,7 +74,7 @@
   
   "tituloInfo": {
     "title": "Nuestros Panes",
-    "slogan": "Tenemos 5 tipos de Pan Árabe. Estos representan diferentes regiones en el mediterráneo para que tu puedas elegir la combinación que más te guste. Tres de ellos están hechos en casa y dos más con panaderos especializados, pero todos ellos horneados de manera artesanal, con diferentes técnicas culinarias y sabores."
+    "slogan": "Tenemos 5 tipos de Pan Árabe. Estos representan diferentes regiones en el mediterráneo para que tu puedas elegir la combinación que más te guste. Todos hechos en casa, horneados de manera artesanal, con diferentes técnicas culinarias y sabores."
   },
 
   "featureData": {
@@ -122,17 +122,17 @@
   "branchData": [
     {
       "id": 1,
-      "menuItem": "El Gyro",
+      "menuItem": "El Gyro (Chico)",
       "image": "../../assets/image/charity/branch/gyro-griego.jpg",
       "slogan": "PAN GYRO",
       "title": "Clásico pan estilo griego <strong>cuadrado</strong>, esponjoso y <strong>suave</strong>, con un toque a mantequilla.",
-      "description": "Lo puedes disfrutar en sabor natural (clásico), finas hierbas o chipotle (shh no pica).",
+      "description": "Lo puedes disfrutar en sabor natural (clásico).",
       "linkUrl": "https://nationkv2.cloudwaitress.com/",
       "linkText": "PÍDELO A DOMICILIO"
     },
     {
       "id": 2,
-      "menuItem": "El Döner",
+      "menuItem": "El Döner (Mediano)",
       "image": "../../assets/image/charity/branch/doner-street.jpg",
       "slogan": "PAN DÖNER",
       "title": "Entre los panes tipo pita, este es el más <strong>esponjoso</strong>, te dejará satisfecho a pesar de su <strong>migaja ligera</strong>.",
@@ -142,7 +142,7 @@
     },
     {
       "id": 3,
-      "menuItem": "Nuestro Döner Gourmet",
+      "menuItem": "Nuestro Döner Gourmet (Mediano)",
       "image": "../../assets/image/charity/branch/doner-gourmet.jpg",
       "slogan": "PAN DÖNER GOURMET",
       "title": "Para los exigentes un pan que <strong>sobresale</strong>, nuestro Döner Gourmet, ¡lo tienes que <strong>probar!</strong>.",
@@ -152,7 +152,7 @@
     },
     {
       "id": 4,
-      "menuItem": "El Persa",
+      "menuItem": "El Persa (Mediano)",
       "image": "../../assets/image/charity/branch/persa-london.jpg",
       "slogan": "PAN PERSA",
       "title": "Pan <strong>vegano</strong> hecho de masa madre, su textura <strong>esponjosa</strong> es porque lo reposamos día y medio!",
@@ -162,7 +162,7 @@
     },
     {
       "id": 5,
-      "menuItem": "El Dürüm",
+      "menuItem": "El Dürüm (Grande)",
       "image": "../../assets/image/charity/branch/durum-ny.jpg",
       "slogan": "PAN DÜRÜM",
       "title": "El <strong>magnánimo</strong> Dürüm, el más indulgente. Parecido al pan pita pero <strong>de 33 cm.</strong>",
@@ -191,7 +191,7 @@
         "id": 3,
         "icon": "../../assets/image/charity/paso3.svg",
         "title": "Más de 10 opciones",
-        "description": "Elige entre elote, cebolla morada, aceituna negra, queso de cabra, hummus garbanzo, jocoque, entre otros."
+        "description": "Elige entre elote, cebolla morada, aceituna negra, queso de cabra, hummus garbanzo, jocoque, costra de queso mozarrella, entre otros."
       }
     ]
   },
@@ -357,7 +357,7 @@
       "id": 2,
       "title": "Sucursal Nápoles",
       "excerpt": "Nos ubicamos en San Antonio #62, Col. Nápoles, Benito Juárez, en la CDMX.",
-      "horarios": "Horario: Lunes a miércoles de 12:00 pm a 9:00 pm; Jueves a sábado de 12:00 pm a 10:00 pm; Domingo de 12:00 pm a 7:00 pm",
+      "horarios": "Horario: Lunes a Jueves de 12:00 pm a 9:00 pm; Viernes y Sábado de 12:00 pm a 10:00 pm; Domingo de 12:00 pm a 7:00 pm",
       "telefono": "Tels: <a href='tel:55-7160-1474'>55-7160-1474</a> y <a href='tel:55-7258-9163'>55-7258-9163</a>",
       "thumbUrl": "../../assets/image/charity/blog/thumb-2.png",
       "btnText": "ABRIR UBICACIÓN EN MAPS ",
@@ -593,7 +593,7 @@
   ],
 
   "txtServDomicilio": {
-    "txttitulo": "Servicio a Domicilio",
+    "txttitulo": "#VaKëbab Servicio a Domicilio",
     "txtdesc": "Si tienes en mente un antojo o una recomendación o necesitas algún consejo sobre cuál Këbab calmará tu apetito, no dudes en ponerte en contacto con nosotros. Actualmente, estamos apoyando la situación de nuestro país con servicio a domicilio.",
     "cta": "Tiempo de respuesta: dentro de 2-5 minutos",
     "txtboton": "ABRIR CHAT"
@@ -611,7 +611,7 @@
     },
     {
       "title": "Döner Gourmet",
-      "description": "Nuestro consentido, pan que enamora. Conocido como pan mediterráneo o pan de agua, es ligero y se presenta abierto estilo almeja. Es un pan vegano ya que no utiliza en su elaboración ningún producto de origen animal. Sabores: romero chía, y 5 chiles (chipotle, cascabel, chile ancho)"
+      "description": "Nuestro consentido, pan que enamora. Conocido como pan mediterráneo o pan de agua, es ligero y se presenta abierto estilo almeja. Es un pan vegano ya que no utiliza en su elaboración ningún producto de origen animal. Sabores: romero chía, y 5 chiles."
     },
     {
       "title": "Persa",
@@ -619,7 +619,7 @@
     },
     {
       "title": "Dürüm",
-      "description": "El magnánimo, nombrado así por nuestros #kebablovers. Es el que más se le parece al pan tipo pita, es delgado de 33 cm con sabor suave. Todos los ingredientes son envueltos por el pan formando un cono."
+      "description": "Su tamaño te sorprenderá. Es el que más se le parece al pan tipo pita, es delgado de 33 cm con sabor suave. Todos los ingredientes son envueltos por el pan formando un cono."
     }
   ],
 
