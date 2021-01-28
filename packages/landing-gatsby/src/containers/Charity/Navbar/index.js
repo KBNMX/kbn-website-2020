@@ -31,13 +31,14 @@ const Navbar = () => {
           <Image src={logoImage} alt="KëbabNation" />
         </Link>
         <MenuWrapper>
-          <AnchorLink
+
+          <a
             className="smooth_scroll"
-            href="#nuestroskebabs"
-            offset={81}
+            href="https://menu.yupoints.com/local/kebabnation"
+            target="_blank"
           >
             {txtbotonmenu}
-          </AnchorLink>
+        </a>
           <a
             href="https://www.facebook.com/pg/kebabnation/reviews/"
             target="_blank"
