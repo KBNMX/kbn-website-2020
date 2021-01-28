@@ -17,12 +17,13 @@ const Navbar = () => {
         botonopiniones {
           txtbotonmenu
           txtboton
+          txtbotonorder
         }
       }
     }
   `);
 
-  const { txtbotonmenu, txtboton } = data.charityJson.botonopiniones;
+  const { txtbotonmenu, txtboton, txtbotonorder } = data.charityJson.botonopiniones;
 
   return (
     <NavbarWrapper className="navbar">
@@ -31,14 +32,20 @@ const Navbar = () => {
           <Image src={logoImage} alt="KëbabNation" />
         </Link>
         <MenuWrapper>
-
-          <a
+            <a
+              className="smooth_scroll"
+              href="https://menu.yupoints.com/local/kebabnation"
+              target="_blank"
+            >
+                {txtbotonorder}
+            </a>
+          <AnchorLink
             className="smooth_scroll"
-            href="https://menu.yupoints.com/local/kebabnation"
-            target="_blank"
+            href="#nuestroskebabs"
+            offset={81}
           >
             {txtbotonmenu}
-        </a>
+          </AnchorLink>
           <a
             href="https://www.facebook.com/pg/kebabnation/reviews/"
             target="_blank"
@@ -48,6 +55,8 @@ const Navbar = () => {
               <Image src={heartImage} alt="Facebook Reviews" />
             </Button>
           </a>
+
+
         </MenuWrapper>
       </Container>
     </NavbarWrapper>

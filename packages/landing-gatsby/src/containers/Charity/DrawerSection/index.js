@@ -82,13 +82,24 @@ const DrawerSection = () => {
         >
           {data.charityJson.menuItems.map((menu, index) => (
             <li key={`menu_key${index}`}>
-              <AnchorLink
-                href={menu.path}
-                offset={menu.offset}
-                onClick={handleDrawerToggle}
-              >
-                {menu.label}
-              </AnchorLink>
+                {
+                    menu.offset ? (
+                        <AnchorLink
+                          href={menu.path}
+                          offset={menu.offset}
+                          onClick={handleDrawerToggle}
+                        >
+                          {menu.label}
+                        </AnchorLink>
+                    ):(
+                        <a
+                          href={menu.path}
+                          target='_blank'
+                        >
+                          {menu.label}
+                      </a>
+                    )
+                }
             </li>
           ))}
         </Scrollspy>
