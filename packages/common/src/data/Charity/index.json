@@ -29,7 +29,13 @@
       "label": "Opiniones y recomendaciones",
       "path": "#testimonial",
       "offset": "81"
+    },
+    {
+      "label": "Ordena aqui",
+      "path": "https://menu.yupoints.com/local/kebabnation",
+      "offset": null
     }
+
   ],
   "bannerSlides": [
     {
@@ -61,17 +67,18 @@
     "txtdesc": "Inspirados en la comida árabe, hemos creado una cocina urbana diferente con toques de otros países.",
     "txtboton": "Explora KëbabNation"
   },
-  
+
   "botonopiniones": {
-    "txtbotonmenu": "IR AL MENU",
-    "txtboton": "LEE LAS OPINIONES"
+    "txtbotonmenu": "VER MENU",
+    "txtboton": "LEE LAS OPINIONES",
+    "txtbotonorder":"ORDENA AQUI"
   },
 
   "tituloKebabs": {
     "title": "Nuestros Këbabs",
     "slogan": "Tenemos 5 tipos de Këbabs para satisfacer el paladar de nuestros comensales. Elige la combinación que más te guste."
   },
-  
+
   "tituloInfo": {
     "title": "Nuestros Panes",
     "slogan": "Tenemos 5 tipos de Pan Árabe. Estos representan diferentes regiones en el mediterráneo para que tu puedas elegir la combinación que más te guste. Todos hechos en casa, horneados de manera artesanal, con diferentes técnicas culinarias y sabores."
@@ -598,7 +605,7 @@
     "cta": "Tiempo de respuesta: dentro de 2-5 minutos",
     "txtboton": "ABRIR CHAT"
   },
-  
+
   "faqPanes": [
     {
       "expend": true,
