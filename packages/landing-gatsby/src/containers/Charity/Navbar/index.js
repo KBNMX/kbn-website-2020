@@ -31,7 +31,7 @@ const Navbar = () => {
     }
   `);
 
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   const onOpenModal = () => setOpen(true);
   const onCloseModal = () => setOpen(false);
