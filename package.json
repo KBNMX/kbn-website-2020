@@ -62,5 +62,10 @@
 			"prettier --trailing-comma es5 --single-quote --write",
 			"git add"
 		]
+	},
+	"dependencies": {
+		"i": "^0.3.6",
+		"react-pdf": "^5.2.0",
+		"react-responsive-modal": "^6.0.1"
 	}
 }
