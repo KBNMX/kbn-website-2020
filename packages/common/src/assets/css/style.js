@@ -117,4 +117,37 @@ export const ResetCSS = createGlobalStyle`
       }
     }
   }
+
+  .react-responsive-modal-modal {
+      background: transparent !important;
+      box-shadow: none !important;
+      overflow: visible !important;
+      
+      .react-pdf__Document {
+          .react-pdf__Page {
+               .react-pdf__Page__canvas,
+               .react-pdf__Page__textContent {
+                   width: 100% !important;
+                   height: auto !important;
+                   background: transparent !important;
+               }
+          }
+      }
+
+      .react-responsive-modal-closeButton {
+        width: 48px;
+        height: 48px;
+        padding: 10px !important;
+        border-radius: 24px;
+        background: rgba(255,255,255,0.4);
+        position: fixed;
+      }
+  }
+
+  @media screen and (max-width: 576px) {
+      .react-responsive-modal-modal {
+          margin: 0 !important;
+          max-width: 100% !important;
+      }
+  }
 `;

@@ -182,6 +182,16 @@ const CharityWrapper = styled.div`
     }
   }
 
+  .noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+
   .sticky-nav-active {
     .navbar {
       padding: 16px 0;
@@ -195,7 +205,7 @@ const CharityWrapper = styled.div`
       .smooth_scroll {
         color: ${themeGet('colors.heading', '#060F1E')};
         transition: color 0.3s ease;
-
+        cursor: pointer;
         &:hover {
           color: ${themeGet('colors.text', '#294859')};
         }
