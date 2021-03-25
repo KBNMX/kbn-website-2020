@@ -122,7 +122,7 @@ export const ResetCSS = createGlobalStyle`
       background: transparent !important;
       box-shadow: none !important;
       overflow: visible !important;
-      
+
       .react-pdf__Document {
           .react-pdf__Page {
                .react-pdf__Page__canvas,
@@ -150,4 +150,25 @@ export const ResetCSS = createGlobalStyle`
           max-width: 100% !important;
       }
   }
+
+    .loader-spinner {
+      border: 16px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 16px solid #3498db;
+      width: 120px;
+      height: 120px;
+      -webkit-animation: spinkbn 2s linear infinite; /* Safari */
+      animation: spinkbn 2s linear infinite;
+    }
+
+    /* Safari */
+    @-webkit-keyframes spinkbn {
+      0% { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+    }
+
+    @keyframes spinkbn {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
 `;

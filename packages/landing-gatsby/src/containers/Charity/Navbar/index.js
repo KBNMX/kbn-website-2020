@@ -48,6 +48,36 @@ const Navbar = () => {
     setNumPages(numPages);
   }
 
+  const loadingPdf = () => {
+    return (
+      <div
+        style={{
+          height: '200px',
+          width: '200px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          paddingBottom: '40px',
+          position: 'relative',
+        }}
+      >
+        <div class="loader-spinner"></div>
+        <div
+          style={{
+            bottom: '0px',
+            left: '50%',
+            transform: 'translateX(-50%)',
+            position: 'absolute',
+            width: '100%',
+            textAlign: 'center',
+          }}
+        >
+          Cargando menú...
+        </div>
+      </div>
+    );
+  };
+
   return (
     <NavbarWrapper className="navbar">
       <Container fullWidth={true}>
@@ -104,6 +134,7 @@ const Navbar = () => {
           onLoadError={bla => {
             console.log(bla);
           }}
+          loading={loadingPdf}
         >
           {Array.from(new Array(numPages), (el, index) => (
             <Page key={`page_${index + 1}`} pageNumber={index + 1} />
