@@ -10,7 +10,7 @@ import 'react-responsive-modal/styles.css';
 import { Modal } from 'react-responsive-modal';
 import { Document, Page, pdfjs } from 'react-pdf';
 
-import menuPDF from 'common/src/assets/files/menu-18-mar-2021.pdf';
+import menuPDF from 'common/src/assets/files/menu-18-mar-2021-low.pdf';
 
 import logoImage from 'common/src/assets/image/charity/logo.svg';
 
