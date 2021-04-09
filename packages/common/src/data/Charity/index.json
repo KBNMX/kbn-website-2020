@@ -134,7 +134,7 @@
       "slogan": "PAN GYRO",
       "title": "Clásico pan estilo griego <strong>cuadrado</strong>, esponjoso y <strong>suave</strong>, con un toque a mantequilla.",
       "description": "Lo puedes disfrutar en sabor natural (clásico).",
-      "linkUrl": "https://menu.yupoints.com/local/kebabnation",
+      "linkUrl": "https://nationkv2.cloudwaitress.com/",
       "linkText": "PÍDELO A DOMICILIO"
     },
     {
@@ -144,7 +144,7 @@
       "slogan": "PAN DÖNER",
       "title": "Entre los panes tipo pita, este es el más <strong>esponjoso</strong>, te dejará satisfecho a pesar de su <strong>migaja ligera</strong>.",
       "description": "Nos aseguramos de que el pan está en su punto porque se infla al momento de calentarlo.",
-      "linkUrl": "https://menu.yupoints.com/local/kebabnation",
+      "linkUrl": "https://nationkv2.cloudwaitress.com/",
       "linkText": "PÍDELO A DOMICILIO"
     },
     {
@@ -154,7 +154,7 @@
       "slogan": "PAN DÖNER GOURMET",
       "title": "Para los exigentes un pan que <strong>sobresale</strong>, nuestro Döner Gourmet, ¡lo tienes que <strong>probar!</strong>.",
       "description": "Receta de la casa, lo encontrarás en 2 sabores, romero-chia y 5 chiles.",
-      "linkUrl": "https://menu.yupoints.com/local/kebabnation",
+      "linkUrl": "https://nationkv2.cloudwaitress.com/",
       "linkText": "PÍDELO A DOMICILIO"
     },
     {
@@ -164,7 +164,7 @@
       "slogan": "PAN PERSA",
       "title": "Pan <strong>vegano</strong> hecho de masa madre, su textura <strong>esponjosa</strong> es porque lo reposamos día y medio!",
       "description": "Al calentarlo su corteza es crujiente, y suave por dentro. De forma triangular se presenta abierto estilo almeja.",
-      "linkUrl": "https://menu.yupoints.com/local/kebabnation",
+      "linkUrl": "https://nationkv2.cloudwaitress.com/",
       "linkText": "PÍDELO A DOMICILIO"
     },
     {
@@ -174,7 +174,7 @@
       "slogan": "PAN DÜRÜM",
       "title": "El <strong>magnánimo</strong> Dürüm, el más indulgente. Parecido al pan pita pero <strong>de 33 cm.</strong>",
       "description": "Todos los ingredientes le dan un sabor suave, envueltos por el pan formando un cono.",
-      "linkUrl": "https://menu.yupoints.com/local/kebabnation",
+      "linkUrl": "https://nationkv2.cloudwaitress.com/",
       "linkText": "PÍDELO A DOMICILIO"
     }
   ],
@@ -406,17 +406,17 @@
         {
           "id": 1,
           "text": "Kebabs y Falafel",
-          "link": "https://menu.yupoints.com/local/kebabnation"
+          "link": "https://nationkv2.cloudwaitress.com/"
         },
         {
           "id": 2,
           "text": "Tacos Árabes",
-          "link": "https://menu.yupoints.com/local/kebabnation"
+          "link": "https://nationkv2.cloudwaitress.com/"
         },
         {
           "id": 3,
           "text": "Costras Turcas ",
-          "link": "https://menu.yupoints.com/local/kebabnation"
+          "link": "https://nationkv2.cloudwaitress.com/"
         }
       ]
     },
@@ -427,17 +427,17 @@
         {
           "id": 1,
           "text": "Papas / Extras",
-          "link": "https://menu.yupoints.com/local/kebabnation"
+          "link": "https://nationkv2.cloudwaitress.com/"
         },
         {
           "id": 2,
           "text": "Ensaladas",
-          "link": "https://menu.yupoints.com/local/kebabnation"
+          "link": "https://nationkv2.cloudwaitress.com/"
         },
         {
           "id": 3,
           "text": "Bebidas",
-          "link": "https://menu.yupoints.com/local/kebabnation"
+          "link": "https://nationkv2.cloudwaitress.com/"
         }
       ]
     },
@@ -448,17 +448,17 @@
         {
           "id": 1,
           "text": "Americano",
-          "link": "https://menu.yupoints.com/local/kebabnation"
+          "link": "https://nationkv2.cloudwaitress.com/"
         },
         {
           "id": 2,
           "text": "Aromático",
-          "link": "https://menu.yupoints.com/local/kebabnation"
+          "link": "https://nationkv2.cloudwaitress.com/"
         },
         {
           "id": 3,
           "text": "Turco",
-          "link": "https://menu.yupoints.com/local/kebabnation"
+          "link": "https://nationkv2.cloudwaitress.com/"
         }
       ]
     }
