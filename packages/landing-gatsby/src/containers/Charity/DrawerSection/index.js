@@ -12,7 +12,7 @@ import 'react-responsive-modal/styles.css';
 import { Modal } from 'react-responsive-modal';
 import { Document, Page, pdfjs } from 'react-pdf';
 
-import menuPDF from 'common/src/assets/files/menu-18-mar-2021-low.pdf';
+import menuPDF from 'common/src/assets/files/menu╠ü 2023.pdf';
 
 const DrawerSection = () => {
   const [toggleState, setToggleState] = useState(false);
